@@ -1,0 +1,29 @@
+div.fixed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 750px;
+  border: 3px solid #73AD21;
+}
+#Bg {
+  background: url(Background.svg);
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+#box {
+  background-color: lightgrey;
+  width: 440px;
+  border: 6px black;
+}
+#right {
+  float: right;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 700px;
+  border: 3px solid #e0e0d1;
+}
+#draggable {
+  cursor: pointer;
+}
